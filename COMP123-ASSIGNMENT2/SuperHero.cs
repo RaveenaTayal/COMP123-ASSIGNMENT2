@@ -46,11 +46,15 @@ namespace COMP123_ASSIGNMENT2
         //---Method to display powers ----------------------------------------------------        
         public void showPowers()
         {
+            Console.WriteLine("YAY!!!");
             Console.WriteLine("The Super Hero {0} has super powers !!!!!", base.name);
+            Console.WriteLine("Wanna see what those powers are????");
+            Console.WriteLine("-------------------");
             for (int cnt = 0; cnt < 3; cnt++)
             {
                 Console.WriteLine(superPowers[cnt]);
             }
+            Console.WriteLine("-------------------");
         }
     }
 }

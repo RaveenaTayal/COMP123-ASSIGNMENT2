@@ -45,7 +45,7 @@ namespace COMP123_ASSIGNMENT2
             if (hitAttempt())
             {
                 damage = hitDamage(); //Calling hitDamage method to calculate damage 
-                Console.WriteLine("Yay!!!!! \n Hit Attempt successful!!!!!");
+                Console.WriteLine("Yay!!!!! \nHit Attempt successful!!!!!");
                 Console.WriteLine("Damage caused to the target: {0}", damage);
             }
             else

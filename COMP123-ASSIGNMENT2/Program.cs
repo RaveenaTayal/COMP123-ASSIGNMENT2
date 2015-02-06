@@ -11,6 +11,11 @@ namespace COMP123_ASSIGNMENT2
         static void Main(string[] args)
         {
 
+            //---Creating an object for SuperHero class
+            SuperHero superHero = new SuperHero("Spider Man");
+            superHero.showPowers();
+            superHero.fight();
+
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
 
