@@ -24,6 +24,8 @@ namespace COMP123_ASSIGNMENT2
             this.superPowers = new string[3]; //Initialising superPowers array
             generateRandomPowers();     //Calling generateRandomPowers() method
         }
+
+        //---Method to generate three random super powers---------------------------------
         void generateRandomPowers()
         {
             int numPowers = powersList.Length;  //Number of powers
@@ -38,6 +40,16 @@ namespace COMP123_ASSIGNMENT2
                     powersList[randomNumber] = "";
                     cnt++;
                 }
+            }
+        }
+
+        //---Method to display powers ----------------------------------------------------        
+        public void showPowers()
+        {
+            Console.WriteLine("The Super Hero {0} has super powers !!!!!", base.name);
+            for (int cnt = 0; cnt < 3; cnt++)
+            {
+                Console.WriteLine(superPowers[cnt]);
             }
         }
     }
