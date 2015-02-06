@@ -1,4 +1,41 @@
-﻿using System;
+﻿/*
+ *Author: Raveena Tayal
+ *Last Modified on 2/6/2015
+ *Program Description: Create a SuperHero class with superPowers array to hold three random powers out of a list 
+ *                     of powers. Also display them using a method. Implement the class by creating an object and
+ *                     call showPowers() method.
+ *                     
+ *Revision History: 
+ *                 Revision: 5
+ *                 Modified: 2/6/2015(11:50 am)
+ *                 Author: Raveena Tayal
+ *                 Log Entry: Modified the program and added revision history 
+ *                 -----------------------------------------------------------------------
+ *                 Revision: 4
+ *                 Modified: 2/6/2015(11:37 am)
+ *                 Author: Raveena Tayal             
+ *                 Log Entry: Added extra functionality to the program
+ *                 -----------------------------------------------------------------------
+ *                 Revision: 3
+ *                 Modified: 2/6/2015(11:34 am)
+ *                 Author: Raveena Tayal
+ *                 Log Entry: Implemented SuperHero class by creating an object in Program.cs
+ *                 -----------------------------------------------------------------------
+ *                 Revision: 2
+ *                 Modified: 2/6/2015(11:19 am)
+ *                 Author: Raveena Tayal
+ *                 Log Entry: Added showPowers() method to display the super powers
+ *                 -----------------------------------------------------------------------
+ *                 Revision: 1
+ *                 Modified: 2/6/2015(11:12 am)
+ *                 Author: Raveena Tayal
+ *                 Log Entry: Created SuperHero class that generates three random powers
+ *                 -----------------------------------------------------------------------
+ */
+
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
